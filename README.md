@@ -26,11 +26,11 @@ Here's howto make your own dev repo settings for experiment:
 
      <remote name="gasolin" fetch="https://github.com/gasolin/"/>
 
-2.1 replace `project remote="b2g"` to `project remote="<your name>"`, ex 
+  2.1 replace `project remote="b2g"` to `project remote="<your name>"`, ex 
 
-    <project remote="gasolin" name="gaia" path="."/>
+      <project remote="gasolin" name="gaia" path="."/>
 
-2.2 comment out `project remote="yurenju"` if you don't need customization
+  2.2 comment out `project remote="yurenju"` if you don't need customization
 
 3. then sync the project
 
