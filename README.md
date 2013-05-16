@@ -1,5 +1,5 @@
-gaia-custom
-===========
+gaia-custom-repo
+=================
 
 Experiment of using repo to manage gaia with customize distribution
 
