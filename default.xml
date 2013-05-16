@@ -9,7 +9,7 @@
 <default revision="refs/heads/master" remote="gaia" sync-j="4"/>
 <default revision="refs/heads/master" remote="gaia-distribution" sync-j="4"/>
 
-<project name="gaia" remote="gaia" path="gaia">
-<project name="gaia/distribution" remote="gaia-distribution" path="gaia/distribution">
+<project path="gaia" name="gaia" remote="gaia">
+<project path="gaia" name="distribution" remote="gaia-distribution">
 
 </manifest>
