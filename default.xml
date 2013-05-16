@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- define repositories -->
+<remote name="gaia" fetch="https://github.com/mozilla-b2g/gaia"/>
+<remote name="gaia-distribution" fetch="https://github.com/yurenju/gaia-distribution-sample"/>
+
+<!-- specify revisions sync-j means download threads number  -->
+<default revision="refs/heads/master" remote="gaia" sync-j="4"/>
+<default revision="refs/heads/master" remote="gaia-distribution" sync-j="4"/>
+
+<project name="gaia" remote="gaia" path="gaia">
+<project name="gaia/distribution" remote="gaia-distribution" path="gaia/distribution">
+
+</manifest>
