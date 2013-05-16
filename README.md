@@ -22,13 +22,17 @@ sync repo
 Here's howto make your own dev repo settings for experiment:
 
 1. Fork https://github.com/gasolin/gaia-custom-repo.git
-2. edit default.xml , replace remote to your repository (ex: mine gaia is at 
+2. edit default.xml , add a remote to your repository, ex: 
 
-     <remote name="b2g" fetch="https://github.com/gasolin/"/>
+     <remote name="gasolin" fetch="https://github.com/gasolin/"/>
 
-3. comment out `project remote="yurenju"` if you don't need customization
+2.1 replace `project remote="b2g"` to `project remote="<your name>"`, ex 
 
-4. then sync the project
+    <project remote="gasolin" name="gaia" path="."/>
+
+2.2 comment out `project remote="yurenju"` if you don't need customization
+
+3. then sync the project
 
     $ repo sync
 
