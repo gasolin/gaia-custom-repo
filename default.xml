@@ -3,13 +3,12 @@
 
 <!-- define repositories -->
 <remote name="b2g" fetch="https://github.com/mozilla-b2g/"/>
-<remote name="yuren" fetch="https://github.com/yurenju/"/>
+<remote name="yurenju" fetch="https://github.com/yurenju/"/>
 
 <!-- specify revisions sync-j means download threads number  -->
 <default revision="refs/heads/master" remote="b2g" sync-j="4"/>
-<default revision="refs/heads/master" remote="yuren" sync-j="4"/>
 
-<project path="gaia" name="gaia" remote="b2g"/>
-<project path="gaia/distribution" name="gaia-distribution-sample" remote="yuren"/>
+<project remote="b2g" name="gaia" path="."/>
+<project remote="yurenju" name="gaia-distribution-sample" path="distribution"/>
 
 </manifest>
