@@ -6,9 +6,9 @@
 <remote name="yurenju" fetch="https://github.com/yurenju/"/>
 
 <!-- specify revisions sync-j means download threads number  -->
-<default revision="refs/heads/master" remote="b2g" sync-j="4"/>
+<default sync-j="4"/>
 
-<project remote="b2g" name="gaia" path="."/>
-<project remote="yurenju" name="gaia-distribution-sample" path="distribution"/>
+<project remote="b2g" revision="refs/heads/master" name="gaia" path="."/>
+<project remote="yurenju" revision="refs/heads/master" name="gaia-distribution-sample" path="distribution"/>
 
 </manifest>
