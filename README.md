@@ -5,8 +5,15 @@ Experiment of using repo to manage gaia with customize distribution
 
 ### Install repo tool
 
-Reference to 
-* [http://source.android.com/source/downloading.html#installing-repo] (http://source.android.com/source/downloading.html#installing-repo)
+Make sure you have a bin/ directory in your home directory and that it is included in your path:
+
+    $ mkdir ~/bin
+    $ PATH=~/bin:$PATH
+
+Download the Repo tool and ensure that it is executable:
+
+    $ curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
+    $ chmod a+x ~/bin/repo
 
 ### init repo
 
@@ -48,3 +55,4 @@ That command will download all required .git for you.
 ## Reference
 
 * Git and repo cheatsheet http://source.android.com/source/developing.html#git-and-repo-cheatsheet
+* Installing repo [http://source.android.com/source/downloading.html#installing-repo] (http://source.android.com/source/downloading.html#installing-repo)
