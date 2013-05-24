@@ -3,16 +3,23 @@ gaia-custom-repo
 
 Experiment of using repo to manage gaia with customize distribution
 
-Create a dir
+### Install repo tool
+
+Reference to 
+* [http://source.android.com/source/downloading.html#installing-repo] (http://source.android.com/source/downloading.html#installing-repo)
+
+### init repo
+
+Create a directory
 
     $ mkdir mozgaia
     $ cd mozgaia
 
-init repo
+init the repo
 
     $ repo init -u https://github.com/gasolin/gaia-custom-repo.git
 
-sync repo
+### sync repo
 
     $ repo sync
     
